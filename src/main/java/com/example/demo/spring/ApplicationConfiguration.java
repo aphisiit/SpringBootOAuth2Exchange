@@ -21,7 +21,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-@EnableAutoConfiguration
 @Configuration
 @EnableWebMvc
 @EnableAspectJAutoProxy
@@ -67,7 +66,6 @@ public class ApplicationConfiguration extends WebSecurityConfigurerAdapter {
     @Bean
     public OAuth2RestOperations oAuth2RestOperations() {
         AccessTokenRequest atr = new DefaultAccessTokenRequest();
-
         return new OAuth2RestTemplate(resource(), new DefaultOAuth2ClientContext(atr));
     }
 
