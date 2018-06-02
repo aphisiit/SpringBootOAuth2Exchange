@@ -1,6 +1,6 @@
-package com.example.demo.controller;
+package com.example.SpringBootOAuth2Exchange.controller;
 
-import com.example.demo.service.TokenService;
+import com.example.SpringBootOAuth2Exchange.service.TokenService;
 import flexjson.JSONSerializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
