@@ -1,4 +1,4 @@
-package com.example.demo.service;
+package com.example.SpringBootOAuth2Exchange.service;
 
 import org.springframework.http.ResponseEntity;
 

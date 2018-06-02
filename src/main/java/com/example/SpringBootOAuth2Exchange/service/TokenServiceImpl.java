@@ -1,4 +1,4 @@
-package com.example.demo.service;
+package com.example.SpringBootOAuth2Exchange.service;
 
 import com.google.gson.Gson;
 import org.slf4j.Logger;

@@ -1,4 +1,4 @@
-package com.example.demo.spring;
+package com.example.SpringBootOAuth2Exchange.spring;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.*;
@@ -24,7 +24,7 @@ import java.util.List;
 @EnableWebMvc
 @EnableAspectJAutoProxy
 @EnableOAuth2Client
-@ComponentScan(basePackages = "com.example.demo")
+@ComponentScan(basePackages = "com.example.SpringBootOAuth2Exchange")
 public class ApplicationConfiguration extends WebSecurityConfigurerAdapter {
 
     @Value("${engine.jwt2.url.authen}")
