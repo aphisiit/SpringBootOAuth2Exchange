@@ -8,7 +8,7 @@
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
-	<name>demo</name>
+	<name>SpringBootOAuth2Exchange</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
